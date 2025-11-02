@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+    background-color: cornflowerblue;
+    color: bisque;
+}
+
+.homepage-header {
+    text-align: center;
+}
+
+.homepage-list {
+    text-align: center;
+}
+
+.homepage-list li {
+    display: inline;
+}
+
+.homepage-list a {
+    background-color: cornflowerblue;
+    color: bisque;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 16px;
+    padding: 8px;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+a:hover {
+    font-weight: 900;
+    font-style: italic;
+}
+
+img {
+    height: 450px;
+    width: auto;
+    border-radius: 5%;
+}
